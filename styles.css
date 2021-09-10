@@ -12,7 +12,9 @@
 img {
     width:400px;
     height:300px;
+    border-radius: 2%;
 }
+
 
 
 html, body {
@@ -32,7 +34,7 @@ padding: 10px 0px 10px 0px;
     color: #FFF;
     font-family: 'Allison', cursive;
     font-size: 10em;
-    text-align: center;
+    text-align: center
 }
 
 section {
@@ -47,3 +49,52 @@ h2 {
     color: rgb(58, 57, 57);
     font-size: 1.5em;
 }
+
+h3 {
+    color: ;
+    font-family: 'Allison', cursive;
+    font-size: 3em;
+    text-align: left;
+    margin: 0px 0px 0px 6px;
+}
+
+footer {
+    background-color:white;
+    padding: .25em 0px;
+}
+
+footer img {
+    width: 32px;
+    height: 32px;    
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.container ul {
+flex-grow: 1;
+text-align: end;
+}
+
+footer ul {
+    margin: 0;
+}
+
+footer li {
+    display:inline;
+    padding: 0px 0.5em;
+}
+
+footer a{
+    display: inline-block;
+    padding: 0px 0px 1px 0px;
+}
+
+footer a:hover {
+    background-color: rgba(138, 132, 132, 0.5)
+}
+
