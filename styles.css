@@ -1,6 +1,28 @@
-img {
-    width:350px;
-    height: 250px;
-    border-radius: 1%;
-    box-shadow: 3px 3px 3px grey;
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #777;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-header {
+background-color: rgba(0, 0, 0, .5);    
+background-image: url("https://media.gq-magazine.co.uk/photos/5dee60bf271d0f00080ca916/16:9/w_2560%2Cc_limit/20191209-sinatra-04.jpg");
+background-blend-mode: multiply;
+background-size: cover;
+padding: 10px 0px 10px 0px;
+}
+
+.main-h1 {
+    color: #FFF;
+    font-family: 'Allison', cursive;
+    font-size: 10em;
+    text-align: center;
 }
