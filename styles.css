@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 * {
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     color: #777;
 }
+
+/*RADI TRENUTNE PREGLEDNOSTI - POSLE UREDITI*/
+img {
+    width:400px;
+    height:300px;
+}
+
 
 html, body {
     margin: 0px;
@@ -25,4 +33,17 @@ padding: 10px 0px 10px 0px;
     font-family: 'Allison', cursive;
     font-size: 10em;
     text-align: center;
+}
+
+section {
+    margin: 1em;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(58, 57, 57);
+    font-size: 1.5em;
 }
