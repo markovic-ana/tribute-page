@@ -14,15 +14,17 @@
 
 /*RADI TRENUTNE PREGLEDNOSTI - POSLE UREDITI*/
 img {
-    width:400px;
+    width:550px;
     height:300px;
     border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 
 html, body {
     margin: 0px;
     padding: 0px;
+    backgrond-color:#FAF9F6;
 }
 
 .main-header {
@@ -33,11 +35,17 @@ background-size: cover;
 padding: 10px 0px 10px 0px;
 }
 
+.main-container {
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 0px 10px;
+}
+
 .main-h1 {
     color: #FFF;
     font-family: 'Allison', cursive;
     font-size: 10em;
-    text-align: center
+    text-align: center;
 }
 
 section {
@@ -47,20 +55,14 @@ section {
     padding: 0 2em;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
 h2 {
     font-family: 'Permanent Marker', cursive;
     color: rgb(58, 57, 57);
     font-size: 1.5em;
-    text-align: center;
 }
 
 h3 {
-    color: ;
+    color: black;
     font-family: 'Allison', cursive;
     font-size: 3em;
     text-align: left;
